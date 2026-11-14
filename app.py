@@ -1,4 +1,4 @@
-from flask import Flask, render_template_string
+from flask import Flask, jsonify, render_template_string
 
 app = Flask(__name__)
 
@@ -17,6 +17,14 @@ HOME_PAGE = """
 @app.route("/")
 def home():
     return render_template_string(HOME_PAGE)
+
+
+@app.route("/api/employees")
+def employees():
+    return jsonify([
+        {"id": 101, "name": "Employee 101", "status": "present"},
+        {"id": 102, "name": "Employee 102", "status": "absent"},
+    ])
 
 
 if __name__ == "__main__":
