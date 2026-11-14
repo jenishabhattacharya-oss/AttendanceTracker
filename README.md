@@ -1,6 +1,6 @@
 # AttendanceTracker
 
-AttendanceTracker is a GraphQL API service for tracking employee attendance.
+AttendanceTracker provides both a REST API and a GraphQL API for tracking employee attendance.
 
 ## Setup
 
