@@ -1,6 +1,6 @@
 # AttendanceTracker
 
-A simple Flask web application to track employee attendance.
+AttendanceTracker is a REST API service for tracking employee attendance.
 
 ## Setup
 
