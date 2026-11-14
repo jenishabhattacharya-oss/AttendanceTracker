@@ -17,3 +17,8 @@ A simple Flask web application to track employee attendance.
    ```
 
 3. Open the app in your browser at http://127.0.0.1:5000
+
+## Notes
+
+- Attendance is marked with the current date automatically.
+- Reports can be exported to CSV for record keeping.
